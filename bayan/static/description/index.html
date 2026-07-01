@@ -1,110 +1,120 @@
 <!-- Bayan - Odoo Apps description page.
-     Uses Odoo native description classes + Font Awesome icons, ASCII only,
-     so it renders correctly on apps.odoo.com and the in-app module page. -->
+     Bootstrap flex grid (row / col-*) so it lays out correctly in the Odoo
+     backend Apps page and on apps.odoo.com. Font Awesome icons, ASCII only. -->
 
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <div class="oe_span12 text-center">
-            <img src="banner.png" class="oe_picture" style="width:100%;max-width:920px;border-radius:10px;"/>
+<div style="max-width:980px;margin:0 auto;padding:0 15px;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+
+    <!-- Banner -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <img src="banner.png" style="width:100%;max-width:920px;border-radius:10px;"/>
         </div>
     </div>
-</section>
 
-<section class="oe_container">
-    <div class="oe_span12 text-center">
-        <h2 class="oe_slogan" style="color:#743c91;font-size:34px;">Attendance made effortless</h2>
-        <h3 class="oe_slogan" style="color:#5a5a66;font-size:20px;font-weight:normal;">
-            Bayan is a cloud service that connects your Odoo to a beautiful mobile app,
-            so employees clock in and out from their phones while HR stays fully in control.
-        </h3>
-        <h3 class="oe_slogan" style="font-size:22px;">
-            <a href="https://bayan.osoolsys.sa" target="_blank" style="color:#743c91;text-decoration:none;">
-                <i class="fa fa-globe"></i>&nbsp; Subscribe at bayan.osoolsys.sa
-            </a>
-        </h3>
-        <p class="text-center" style="color:#8D8E98;font-size:14px;">Requires an active Bayan subscription</p>
+    <!-- Intro -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2 style="color:#743c91;font-size:32px;font-weight:bold;margin-top:30px;">Attendance made effortless</h2>
+            <p style="color:#5a5a66;font-size:18px;line-height:1.6;max-width:720px;margin:10px auto 0;">
+                Bayan is a cloud service that connects your Odoo to a beautiful mobile app,
+                so employees clock in and out from their phones while HR stays fully in control.
+            </p>
+            <p style="font-size:20px;margin-top:18px;">
+                <a href="https://bayan.osoolsys.sa" target="_blank" style="color:#743c91;text-decoration:none;font-weight:bold;">
+                    <i class="fa fa-globe"></i>&nbsp; Subscribe at bayan.osoolsys.sa
+                </a>
+            </p>
+            <p style="color:#8D8E98;font-size:14px;">Requires an active Bayan subscription</p>
+        </div>
     </div>
-</section>
 
-<section class="oe_container oe_dark">
-    <div class="oe_row oe_spaced">
-        <div class="oe_span6 text-center">
+    <hr style="border:none;height:1px;background:#e6dcef;margin:26px 0;"/>
+
+    <!-- Features -->
+    <div class="row">
+        <div class="col-lg-4 col-md-6 text-center" style="margin-bottom:28px;">
             <i class="fa fa-mobile" style="font-size:46px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="color:#743c91;font-size:22px;">Clock in from anywhere</h3>
-            <p class="text-center" style="color:#555;font-size:16px;">Employees check in and out in one tap from their phone - on site, in the field, or working remotely.</p>
+            <h3 style="color:#743c91;font-size:20px;margin:10px 0 6px;">Clock in from anywhere</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Employees check in and out in one tap from their phone - on site, in the field, or working remotely.</p>
         </div>
-        <div class="oe_span6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" style="margin-bottom:28px;">
             <i class="fa fa-map-marker" style="font-size:46px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="color:#743c91;font-size:22px;">Location aware</h3>
-            <p class="text-center" style="color:#555;font-size:16px;">Set your workplace location once and keep attendance tied to where it actually happens.</p>
+            <h3 style="color:#743c91;font-size:20px;margin:10px 0 6px;">Location aware</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Set your workplace location once and keep attendance tied to where it actually happens.</p>
         </div>
-    </div>
-    <div class="oe_row oe_spaced">
-        <div class="oe_span6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" style="margin-bottom:28px;">
             <i class="fa fa-clock-o" style="font-size:46px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="color:#743c91;font-size:22px;">Real-time and automatic</h3>
-            <p class="text-center" style="color:#555;font-size:16px;">Live status and history for every employee, with forgotten check-outs closed automatically.</p>
+            <h3 style="color:#743c91;font-size:20px;margin:10px 0 6px;">Real-time and automatic</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Live status and history for every employee, with forgotten check-outs closed automatically.</p>
         </div>
-        <div class="oe_span6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" style="margin-bottom:28px;">
             <i class="fa fa-paint-brush" style="font-size:46px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="color:#743c91;font-size:22px;">Your brand</h3>
-            <p class="text-center" style="color:#555;font-size:16px;">The app wears your company colors and logo, configured right inside Odoo.</p>
+            <h3 style="color:#743c91;font-size:20px;margin:10px 0 6px;">Your brand</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">The app wears your company colors and logo, configured right inside Odoo.</p>
         </div>
-    </div>
-    <div class="oe_row oe_spaced">
-        <div class="oe_span6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" style="margin-bottom:28px;">
             <i class="fa fa-shield" style="font-size:46px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="color:#743c91;font-size:22px;">Secure by design</h3>
-            <p class="text-center" style="color:#555;font-size:16px;">Each employee signs in with their own secure account. Your data stays in your Odoo.</p>
+            <h3 style="color:#743c91;font-size:20px;margin:10px 0 6px;">Secure by design</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Each employee signs in with their own secure account. Your data stays in your Odoo.</p>
         </div>
-        <div class="oe_span6 text-center">
+        <div class="col-lg-4 col-md-6 text-center" style="margin-bottom:28px;">
             <i class="fa fa-plug" style="font-size:46px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="color:#743c91;font-size:22px;">Built for Odoo</h3>
-            <p class="text-center" style="color:#555;font-size:16px;">Works hand in hand with Odoo HR and Attendance - nothing to migrate, nothing to duplicate.</p>
+            <h3 style="color:#743c91;font-size:20px;margin:10px 0 6px;">Built for Odoo</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Works hand in hand with Odoo HR and Attendance - nothing to migrate, nothing to duplicate.</p>
         </div>
     </div>
-</section>
 
-<section class="oe_container">
-    <div class="oe_span12 text-center">
-        <h2 class="oe_slogan" style="color:#743c91;font-size:30px;">Up and running in 3 steps</h2>
+    <hr style="border:none;height:1px;background:#e6dcef;margin:26px 0;"/>
+
+    <!-- 3 steps -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2 style="color:#743c91;font-size:28px;font-weight:bold;margin-bottom:24px;">Up and running in 3 steps</h2>
+        </div>
     </div>
-    <div class="oe_row oe_spaced">
-        <div class="oe_span4 text-center">
+    <div class="row">
+        <div class="col-md-4 text-center" style="margin-bottom:22px;">
             <i class="fa fa-shopping-cart" style="font-size:40px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="font-size:20px;">1. Subscribe</h3>
-            <p class="text-center" style="color:#555;font-size:15px;">Choose your plan at bayan.osoolsys.sa.</p>
+            <h3 style="font-size:19px;margin:10px 0 6px;">1. Subscribe</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Choose your plan at bayan.osoolsys.sa.</p>
         </div>
-        <div class="oe_span4 text-center">
+        <div class="col-md-4 text-center" style="margin-bottom:22px;">
             <i class="fa fa-cogs" style="font-size:40px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="font-size:20px;">2. We activate you</h3>
-            <p class="text-center" style="color:#555;font-size:15px;">Contact us and we activate Bayan on your Odoo and hand over the mobile app.</p>
+            <h3 style="font-size:19px;margin:10px 0 6px;">2. We activate you</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Contact us and we activate Bayan on your Odoo and hand over the mobile app.</p>
         </div>
-        <div class="oe_span4 text-center">
+        <div class="col-md-4 text-center" style="margin-bottom:22px;">
             <i class="fa fa-mobile" style="font-size:40px;color:#743c91;"></i>
-            <h3 class="oe_slogan" style="font-size:20px;">3. Your team goes mobile</h3>
-            <p class="text-center" style="color:#555;font-size:15px;">Employees download the app, sign in, and start clocking in.</p>
+            <h3 style="font-size:19px;margin:10px 0 6px;">3. Your team goes mobile</h3>
+            <p style="color:#555;font-size:15px;line-height:1.6;">Employees download the app, sign in, and start clocking in.</p>
         </div>
     </div>
-</section>
 
-<section class="oe_container oe_dark">
-    <div class="oe_span12 text-center">
-        <h2 class="oe_slogan" style="color:#743c91;font-size:30px;">Ready to activate Bayan?</h2>
-        <h3 class="oe_slogan" style="color:#5a5a66;font-size:18px;font-weight:normal;">
-            A Bayan subscription is required to use this module. Subscribe online, then
-            contact us and we will activate it for your company and provide the mobile app.
-        </h3>
-        <h3 class="oe_slogan" style="font-size:24px;">
-            <a href="https://bayan.osoolsys.sa" target="_blank" style="color:#743c91;text-decoration:none;">
-                <i class="fa fa-bookmark"></i>&nbsp; Subscribe and contact us at bayan.osoolsys.sa
-            </a>
-        </h3>
-    </div>
-</section>
+    <hr style="border:none;height:1px;background:#e6dcef;margin:26px 0;"/>
 
-<section class="oe_container">
-    <div class="oe_span12 text-center">
-        <p style="color:#8D8E98;font-size:13px;">Bayan &bull; by Osool Systems &bull; Requires an active subscription from bayan.osoolsys.sa</p>
+    <!-- CTA -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2 style="color:#743c91;font-size:28px;font-weight:bold;">Ready to activate Bayan?</h2>
+            <p style="color:#5a5a66;font-size:17px;line-height:1.6;max-width:640px;margin:8px auto 16px;">
+                A Bayan subscription is required to use this module. Subscribe online, then
+                contact us and we will activate it for your company and provide the mobile app.
+            </p>
+            <p style="font-size:22px;">
+                <a href="https://bayan.osoolsys.sa" target="_blank" style="color:#743c91;text-decoration:none;font-weight:bold;">
+                    <i class="fa fa-bookmark"></i>&nbsp; Subscribe and contact us at bayan.osoolsys.sa
+                </a>
+            </p>
+        </div>
     </div>
-</section>
+
+    <hr style="border:none;height:1px;background:#e6dcef;margin:26px 0;"/>
+
+    <!-- Footer -->
+    <div class="row">
+        <div class="col-12 text-center">
+            <p style="color:#8D8E98;font-size:13px;">Bayan &bull; by Osool Systems &bull; Requires an active subscription from bayan.osoolsys.sa</p>
+        </div>
+    </div>
+
+</div>
