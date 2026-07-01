@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Bayan',
-    'version': '19.0.1.0.0',
+    'version': '18.0.1.0.0',
     'summary': 'Mobile HR & attendance backend — secure REST API for the Bayan app',
     'description': """
 Bayan
