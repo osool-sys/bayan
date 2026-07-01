@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_company_form_inherit_bayan" model="ir.ui.view">
+        <field name="name">res.company.form.inherit.bayan</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//notebook" position="inside">
+                <page string="Theme">
+                   <group><field name="theme_primary_color" widget="color"/></group>
+                   <group><field name="theme_secondary_color" widget="color"/></group>
+                </page>
+                <page string="GPS Coordinates">
+                   <group><field name="company_latitude"/></group>
+                   <group> <field name="company_longitude"/></group>
+                </page>
+                <page string="Mobile App Configuration">
+                   <group><field name="is_signup_required" widget="boolean_toggle"/></group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
