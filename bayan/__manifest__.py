@@ -40,6 +40,7 @@ models — it extends existing ones and layers the mobile API on top.
         'views/res_company_views.xml',
         'data/ir_cron_data.xml',
     ],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
