@@ -31,6 +31,7 @@ Bayan depends on the standard HR and Attendance modules and adds no new models; 
         'views/res_company_views.xml',
         'data/ir_cron_data.xml',
     ],
+    'images': ['static/description/banner.png'],
     'installable': True,
     'application': True,
     'license': 'LGPL-3',
